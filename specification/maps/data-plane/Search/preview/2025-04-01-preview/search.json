@@ -701,9 +701,8 @@
             "required": false,
             "type": "array",
             "items": {
-              "$ref": "#/definitions/ResultType"
-            },
-            "x-ms-parameter-location": "method"
+              "type": "string"
+            }
           },
           {
             "$ref": "#/parameters/View"
